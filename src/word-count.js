@@ -9,8 +9,5 @@ var wordCount = function (sentence){
       word_count[words[i]] = 1;
     }
   }
-  console.log(word_count);
   return word_count;
 };
-
-wordCount('olly olly in come free');
